@@ -1,0 +1,38 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+html {
+    background-color: $principal-color-bg;
+    width: 90%;
+    margin: auto;
+}
+.form {
+    
+    input {
+        margin: 30px 0;
+        height: 30px;
+        width: 30%;
+        border: none;
+        background-attachment: fixed;
+    }
+    button {
+        height: 30px;
+        margin: 0 30px;
+        background-color: #177ddc;  
+        border: none;
+        font-family: 'Roboto';
+        cursor: pointer;
+    }
+}
+.container {
+    // width: 90%;
+    // margin: auto;
+    // padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}

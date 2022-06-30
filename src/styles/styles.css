@@ -1,0 +1,214 @@
+.left-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  grid-gap: 2rem;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.left-content h1 {
+  color: #efefef;
+}
+.left-content .card {
+  cursor: pointer;
+  width: 250px;
+  border-radius: 1rem;
+  padding: 0 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-content .card h2 {
+  text-transform: capitalize;
+  width: 135px;
+}
+.left-content .card p {
+  color: #dbf5ff;
+  transform: translate(-2rem, -1.5rem);
+}
+
+.right-content {
+  width: 30%;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  transform: translateY(-30px);
+}
+.right-content h1 {
+  color: #efefef;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.right-content img {
+  margin: 2rem;
+  height: 175px;
+}
+.right-content .abilitie_text {
+  color: #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.right-content .abilities {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  padding: 10px;
+}
+.right-content .abilities .group {
+  color: #efefef;
+  text-transform: uppercase;
+  margin: 0 2rem;
+}
+.right-content .types {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.right-content .types .type {
+  margin: 0 2rem;
+  border-radius: 100px/75px;
+  padding: 0 1rem;
+  min-width: 100px;
+}
+.right-content .stats {
+  margin-top: 2rem;
+  padding: 0 80px 0 20px;
+}
+.right-content .stats div {
+  display: flex;
+  justify-content: space-between;
+}
+.right-content .stats div h3 {
+  text-transform: uppercase;
+  color: #efefef;
+  font-size: 1rem;
+}
+.right-content .stats div .base_stat {
+  margin: none;
+  color: #efefef;
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Arial";
+}
+
+body {
+  background-color: #1f2325;
+  width: 90%;
+  margin: auto;
+}
+
+.form input {
+  margin: 30px 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  background-attachment: fixed;
+}
+.form button {
+  height: 30px;
+  margin: 0 30px;
+  background-color: #177ddc;
+  border: none;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grass {
+  background-color: #03925b;
+  border: 2px solid #0a5a3b;
+}
+
+.poison {
+  background-color: #c060f8;
+  border: 2px solid #630897;
+}
+
+.fire {
+  background-color: #e42;
+  border: 2px solid #832512;
+}
+
+.flying {
+  background-color: #33e3e9;
+  border: 2px solid #23979b;
+}
+
+.water {
+  background-color: #1a4df5;
+  border: 2px solid #112e8f;
+}
+
+.bug {
+  background-color: #18ff52;
+  border: 2px solid #107c2b;
+}
+
+.normal {
+  background-color: #cccccc;
+  border: 2px solid #787878;
+}
+
+.electric {
+  background-color: #ffc64b;
+  border: 2px solid #a78233;
+}
+
+.ground {
+  background-color: #f5d58f;
+  border: 2px solid #978359;
+}
+
+.fairy {
+  background-color: #db74f0;
+  border: 2px solid #954fa3;
+}
+
+.fighting {
+  background-color: #9c4646;
+  border: 2px solid #422020;
+}
+
+.psychic {
+  background-color: #db98f0;
+  border: 2px solid #9d6cac;
+}
+
+.ice {
+  background-color: #00f7ff;
+  border: 2px solid #00686b;
+}
+
+.rock {
+  background-color: #ac9d6d;
+  border: 2px solid #ac9d6d;
+}
+
+.dark {
+  background-color: #5e5c56;
+  border: 2px solid #353431;
+}
+
+.ghost {
+  background-color: #6300d4;
+  border: 2px solid #350072;
+}
+
+.dragon {
+  background-color: #881fff;
+  border: 2px solid #3d126e;
+}
+
+.steel {
+  background-color: #fffeee;
+  border: 2px solid #a7a79a;
+}
+
+/*# sourceMappingURL=styles.css.map */

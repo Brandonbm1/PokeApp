@@ -1,0 +1,77 @@
+@import "variables";
+
+.grass {
+    background-color: $grass-color-bg;
+    border: 2px solid $grass-color-border
+}
+.poison {
+    background-color: $poison-color-bg;
+    border: 2px solid $poison-color-border
+}
+.fire {
+    background-color: $fire-color-bg;
+    border: 2px solid $fire-color-border;
+}
+.flying {
+    background-color: $flying-color-bg;
+    border: 2px solid $flying-color-border;
+}
+.water {
+    background-color: $water-color-bg;
+    border: 2px solid $water-color-border;
+}
+.bug {
+    background-color: $bug-color-bg;
+    border: 2px solid $bug-color-border;
+}
+.normal {
+    background-color: $normal-color-bg;
+    border: 2px solid $normal-color-border;
+}
+.electric {
+    background-color: $electric-color-bg;
+    border: 2px solid $electric-color-border;
+}
+.ground {
+    background-color: $ground-color-bg;
+    border: 2px solid $ground-color-border;
+}
+.fairy {
+    background-color: $fairy-color-bg;
+    border: 2px solid $fairy-color-border;
+}
+.fighting {
+    background-color: $fighting-color-bg;
+    border: 2px solid $fighting-color-border;
+}
+.psychic {
+    background-color: $psychic-color-bg;
+    border: 2px solid $psychic-color-border;
+}
+.ice {
+    background-color: $ice-color-bg;
+    border: 2px solid $ice-color-border;
+}
+.rock {
+    background-color: $rock-color-bg;
+    border: 2px solid $rock-color-border;
+}
+.dark {
+    background-color: $dark-color-bg;
+    border: 2px solid $dark-color-border;
+}
+.ghost {
+    background-color: $ghost-color-bg;
+    border: 2px solid $ghost-color-border;
+}
+.dragon {
+    background-color: $dragon-color-bg;
+    border: 2px solid $dragon-color-border;
+}
+.steel {
+    background-color: $steel-color-bg;
+    border: 2px solid $steel-color-border;
+    // color: $steel-color-text;
+}
+
+
