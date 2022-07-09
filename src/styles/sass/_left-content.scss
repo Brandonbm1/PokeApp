@@ -1,0 +1,47 @@
+@import "variables";
+
+.leftContent {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 2rem;
+  margin-bottom: 50px;
+  width: 70%;
+  overflow: hidden;
+
+  &__loading {
+    color: $principal-color-text
+  }
+
+  &__card {
+    cursor: pointer;
+    width: 250px;
+    border-radius: 1rem;
+    padding: 0 .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 1s ease-in-out;
+  }
+
+  &__name {
+    text-transform: capitalize;
+    min-width: 135px;
+  }
+
+  &__id {
+    color: #dbf5ff;
+    // position: absolute;
+    transform: translate(-2rem, -1.5rem);
+
+  }
+
+  &__id-steel {
+    color: $steel-color-text;
+    border: none;
+  }
+
+  &__card:hover {
+    box-shadow: inset -3px -3px rgba(255, 255, 255, 0.7), inset 3px 3px olive;
+  }
+}

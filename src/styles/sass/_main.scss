@@ -1,0 +1,27 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+body {
+    background: no-repeat fixed radial-gradient(#aaa, #222);
+    // background-color: $principal-color-bg;
+    // width: 90%;
+    // margin: auto;
+    
+}
+.container{
+    // width: 90%;
+    // margin: auto;
+
+    
+}
+
+.pokedex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em 0 3em;
+}

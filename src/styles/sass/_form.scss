@@ -1,0 +1,40 @@
+@import 'variables';
+
+.form{
+    display: flex;
+    align-items: center;
+    // margin: 20px 0 ;
+    padding: 5px 3em;
+    position: sticky;
+    top: 20px;
+    background-color: transparent;
+    z-index: 200;
+    height: 80px;
+    top: 0;
+    left: 0;
+    &__text {
+        // margin: 30px 0;
+        height: 30px;
+        width: 30%;
+        border: none;
+        background-attachment: fixed;
+        border-radius: 15px 0 0 15px;
+        padding: 0 1.5em;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__button {
+        height: 30px;
+        margin: 0 0px;
+        background-color: $button-color-bg;  
+        color: $principal-color-text;
+        border: none;
+        font-family: 'Roboto';
+        cursor: pointer;
+        border-radius: 0 15px 15px 0;
+        &:hover{
+            background-color: $button-color-bg-hover;
+        }
+    }
+}

@@ -1,0 +1,183 @@
+@import "variables";
+
+// h1 {
+//     color: $principal-color-text;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     letter-spacing: 1px;
+//     // width: 30%;
+// }
+
+.pokeInfo{
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    transform: translateY(-30px);
+    z-index: 500;
+
+    &__name {
+        color: $principal-color-text;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+
+    &__img {
+        margin: 2rem;
+        height: 120px;
+    }
+
+    &__abilities-text {
+        color: $principal-color-text;
+        border-bottom: 1px solid $principal-color-text;
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+
+    &__abilities {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        padding: 0 0.1rem;
+
+        &__abilitie {
+            color: $principal-color-text;
+            text-transform: uppercase;
+            margin: 0 1rem;
+
+            text-decoration: underline;
+            font-weight: 100;
+            margin-top: .5rem;
+        }
+    }
+
+    &__types {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+        transform: translateY(-15px);
+
+        &__type {
+            margin: 0 .5rem;
+            border-radius: 15px;
+            padding: 0 1rem;
+        }
+    }
+
+    .stats {
+        margin-top: 2rem;
+        padding: 0 80px 0 20px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            .stat_name {
+                text-transform: uppercase;
+                color: $principal-color-text;
+                font-size: 1rem
+            }
+
+            .base_stat {
+                margin: none;
+                color: $principal-color-text;
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
+.pokeInfo{
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    transform: translateY(-30px);
+    z-index: 500;
+
+    &__name, .alt-pokeInfo__name {
+        color: $principal-color-text;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+
+    &__img, .alt-pokeInfo__img {
+        margin: 2rem;
+        height: 120px;
+    }
+
+    &__abilities-text, .alt-pokeInfo__abilities-text {
+        color: $principal-color-text;
+        border-bottom: 1px solid $principal-color-text;
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+
+    &__abilities, .alt-pokeInfo__abilities {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        padding: 0 0.1rem;
+
+        &-abilitie, .alt-pokeInfo__abilitie {
+            color: $principal-color-text;
+            text-transform: uppercase;
+            margin: 0 1rem;
+
+            text-decoration: underline;
+            font-weight: 100;
+            margin-top: .5rem;
+        }
+    }
+
+    &__types, .alt-pokeInfo__types {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+        transform: translateY(-15px);
+        line-height: 2.5em;
+        opacity: 0.7;
+        color: #fff;
+
+        &-type, .alt-pokeInfo-type {
+            margin: 0 .5rem;
+            border-radius: 15px;
+            padding: 0 1rem;
+        }
+    }
+
+    .stats {
+        margin-top: 2rem;
+        padding: 0 80px 0 20px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            .stat_name {
+                text-transform: uppercase;
+                color: $principal-color-text;
+                font-size: 1rem
+            }
+
+            .base_stat {
+                margin: none;
+                color: $principal-color-text;
+                font-size: 1rem;
+            }
+        }
+    }
+
+}

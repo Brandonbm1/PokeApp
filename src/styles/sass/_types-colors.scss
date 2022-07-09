@@ -27,6 +27,7 @@
 .normal {
     background-color: $normal-color-bg;
     border: 2px solid $normal-color-border;
+    color: $normal-color-text;
 }
 .electric {
     background-color: $electric-color-bg;
@@ -71,7 +72,7 @@
 .steel {
     background-color: $steel-color-bg;
     border: 2px solid $steel-color-border;
-    // color: $steel-color-text;
+    color: $steel-color-text;
 }
 
 
